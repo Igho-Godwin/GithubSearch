@@ -68,7 +68,6 @@ const App: React.FC = () => {
           id="search-results"
           role="region"
           aria-label="Search results"
-          tabIndex={-1}
           data-testid="search-results"
         >
           <ResultGrid results={results} />
